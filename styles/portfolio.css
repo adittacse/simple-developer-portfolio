@@ -77,6 +77,7 @@ main {
 }
 
 .about {
+    text-align: center;
     margin-top: 130px;
     background: #FFF8F3;
     border-radius: 10px;
@@ -91,8 +92,23 @@ main {
 }
 
 .section-description {
-    text-align: center;
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
+}
+
+.about .about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .info-title {
+    color: #757575;
+    font-size: 20px;
+}
+
+.about .info-description {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
 }
