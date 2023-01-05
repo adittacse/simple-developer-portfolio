@@ -144,3 +144,12 @@ main {
 .skill .skill-description {
     color: #757575;
 }
+
+/* resume styles */
+
+.section-title {
+    margin: 130px 0 115px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
