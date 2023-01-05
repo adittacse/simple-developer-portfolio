@@ -76,9 +76,11 @@ main {
     margin: 0 auto;
 }
 
+/* about section styles */
+
 .about {
     text-align: center;
-    margin-top: 130px;
+    margin: 130px 0 130px;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 131px 155px;
@@ -111,4 +113,34 @@ main {
     color: #474747;
     font-size: 20px;
     font-weight: 700;
+}
+
+/* my skills styles */
+
+.my-skills {
+    margin-bottom: 30px;
+}
+
+.skills-container {
+    display: flex;
+    margin-top: 50px;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill .skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin: 30px 0 20px;
+}
+
+.skill .skill-description {
+    color: #757575;
 }
